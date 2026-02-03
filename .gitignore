@@ -1,0 +1,23 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Local vars and secrets
+terraform.tfvars
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Keys, certs
+*.pem
+*.key
+*.p12
+*.crt
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
