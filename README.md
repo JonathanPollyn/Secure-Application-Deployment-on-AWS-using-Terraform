@@ -56,6 +56,7 @@ Jnnix is a fictional e-commerce company created solely for the purpose of demons
     Controlled inbound and outbound internet connectivity
 
 ## Terraform Project Structure
+```
 terraform/
 ├── provider.tf              # AWS provider configuration
 ├── variables.tf             # Input variable definitions
@@ -70,7 +71,7 @@ terraform/
 ├── outputs.tf               # Useful deployment outputs
 ├── images/                  # Architecture diagrams and screenshots
 └── README.md
-
+```
 ## Deployment Instructions
 ```
 terraform init
@@ -81,11 +82,11 @@ terraform apply
 
 ## Deployment Validation
 ALB showing healthy targets
-<img src="images/alb-healthy.png" width="700">
+<img src="images\ALB showing healthy targets.png" width="700">
 EC2 instances running in private subnets
-<img src="images/alb-healthy.png" width="700">
+<img src="images\EC2 instances running in private subnets.png" width="700">
 RDS instance not publicly accessible
-<img src="images/alb-healthy.png" width="700">
+<img src="images\RDS instance not publicly accessible.png" width="700">
 
 ## Security Highlights
 - Add AWS WAF for Layer 7 protection
