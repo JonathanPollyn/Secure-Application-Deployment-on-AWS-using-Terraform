@@ -72,13 +72,23 @@ terraform/
 ├── images/                  # Architecture diagrams and screenshots
 └── README.md
 ```
+## License
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute this code for learning, personal, or commercial purposes.
+See the LICENSE file for full details.
+
+## Clone the repository
+```
+git clone https://github.com/JonathanPollyn/Secure-Application-Deployment-on-AWS-using-Terraform.git
+cd Secure-Application-Deployment-on-AWS-using-Terraform/terraform
+```
+
 ## Deployment Instructions
 ```
 terraform init
 terraform plan
 terraform apply
 ```
-
 
 ## Deployment Validation
 ALB showing healthy targets
@@ -93,3 +103,8 @@ RDS instance not publicly accessible
 - Enforce HTTPS with ACM certificates
 - Introduce centralized logging with CloudWatch
 - Implement CI/CD for Terraform deployments
+
+## Author
+Cloud & Data Engineer | AWS Certified  
+LinkedIn: https://www.linkedin.com/in/your-linkedin  
+Portfolio: https://pollynzconsults.ai
