@@ -91,11 +91,13 @@ terraform apply
 ```
 
 ## Deployment Validation
-ALB showing healthy targets
+### ALB showing healthy targets
 <img src="images\ALB showing healthy targets.png" width="700">
-EC2 instances running in private subnets
+
+### EC2 instances running in private subnets
 <img src="images\EC2 instances running in private subnets.png" width="700">
-RDS instance not publicly accessible
+
+### RDS instance not publicly accessible
 <img src="images\RDS instance not publicly accessible.png" width="700">
 
 ## Security Highlights
