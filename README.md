@@ -108,5 +108,5 @@ terraform apply
 
 ## Author
 Cloud & Data Engineer | AWS Certified  
-LinkedIn: https://www.linkedin.com/in/your-linkedin  
+LinkedIn: https://www.linkedin.com/in/jonathan-ibifubara-pollyn-ms-ds-8482a1110/ 
 Portfolio: https://pollynzconsults.ai
